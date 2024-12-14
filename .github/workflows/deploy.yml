@@ -1,0 +1,23 @@
+name: Deploy to Namecheap via FTP
+
+on:
+  push:
+    branches:
+      - main # Replace with your deployment branch if different
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Upload to FTP
+        uses: SamKirkland/FTP-Deploy-Action@4.5.0
+        with:
+          server: ftp.ks-solutions-lb.com # Replace with your FTP hostname
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          local-dir: ./ # Path to your built files, if applicable
+          server-dir: /public_html/ # Remote directory to deploy to
