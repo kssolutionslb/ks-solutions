@@ -14,5 +14,4 @@ jobs:
                   server: ftp.ks-solutions-lb.com
                   username: ${{ secrets.FTP_USERNAME }}
                   password: ${{ secrets.FTP_PASSWORD }}
-                  server-dir: public_html/
                   protocol: ftps
