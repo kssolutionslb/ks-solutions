@@ -1,0 +1,1 @@
+function n(a,t){let e=t?new Date(t):new Date;switch(a){case"start":return new Date(e.getFullYear(),e.getMonth(),e.getDate(),0,0,0,0);case"middle":return new Date(e.getFullYear(),e.getMonth(),e.getDate(),12,0,0,0);case"end":return new Date(e.getFullYear(),e.getMonth(),e.getDate(),23,59,59,999)}}export{n as a};
