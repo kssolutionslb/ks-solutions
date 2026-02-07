@@ -1,0 +1,1 @@
+var a={version:"1.0.89",appName:"KS Solutions",appOwner:"KS Solutions",ownerEmail:"ks_solutions_lb@hotmail.com",snackbarDuration:3e3,maxNumberValue:1e10,recaptcha:"6Lfgi3IqAAAAAHoyqBqj-obOzwamEgtW2mrmc_Sn",maxTableHeightWithSearch:"calc(100dvh - 292px)"};export{a};
