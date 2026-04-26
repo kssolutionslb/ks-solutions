@@ -1,0 +1,1 @@
+var e={LS:{theme:"theme",menuTrack:"menu-track",uuid:"uuid",trustedDeviceToken:"trusted-device-token"},SS:{token:"Token",refreshToken:"RefreshToken",currentService:"currentService",dashboardFilter:"dashboardFilter",dashboardSearch:"dashboardSearch",clientInstanceId:"ClientInstanceId"}};export{e as a};
