@@ -1,0 +1,1 @@
+function i(t,r=Date.now()){if(!t?.createdAt)return"";let e=new Date(t.createdAt),n=new Date(r);return Number.isNaN(e.getTime())?"":e.toDateString()===n.toDateString()?"log-highlight-row":""}export{i as a};
